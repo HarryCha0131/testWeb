@@ -1,0 +1,22 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.content {
+    height: 200%;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    background-color: #ffffff;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+}
+.section.active {
+    opacity: 1; 
+}
